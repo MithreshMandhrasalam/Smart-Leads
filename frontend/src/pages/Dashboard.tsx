@@ -1,10 +1,9 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import { useAuth } from '../context/AuthContext';
 import api from '../utils/api';
 import { LeadModal } from '../components/LeadModal';
 import {
   LogOut,
-  User,
   Plus,
   Search,
   Download,
